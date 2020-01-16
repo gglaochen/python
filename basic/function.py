@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+函数相关用法
+"""
+__author__ = 'ChenHanLin'
+
+
 def a(x):
     if x <= 1:
         return 1
@@ -147,7 +156,7 @@ for n in getIt():
         break
 
 '''
-functools.partial 帮助我们给给函数赋予默认值
+functools.partial 帮助我们给函数赋予默认值
 '''
 import functools
 

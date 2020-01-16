@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+列表相关用法 list
+"""
+__author__ = 'ChenHanLin'
+
 a = [1, 2, 3, [4, 5, 6]]
 print(a[1], a[3][1])
 

@@ -1,6 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
-字典 dict 用花括号包含
+字典 dict
 """
+__author__ = 'ChenHanLin'
+
 dict1 = {1: 'one', 2: 'two', 3: 'three'}
 print('字典根据key获取值:', dict1.get(1))
 print('如果获取没有的字典:', dict1.get(4))
